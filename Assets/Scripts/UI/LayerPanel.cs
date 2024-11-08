@@ -50,6 +50,6 @@ public class LayerPanel : BasePanel
         v.z += 200.0f;
         Vector3 dv = v - ma.transform.position;
         ma.moveAvatar(dv.x,dv.z);
-        tPanel2.gameObject.SetActive(false);
+        //tPanel2.gameObject.SetActive(false);
     }
 }
